@@ -1,0 +1,100 @@
+{
+  "module_code": "SG5Y01",
+  "module_title": "Singapore: Our Amazing Home",
+  "slug": "singapore-our-amazing-home",
+  "institution": "Preschool / early learning centre (provider not specified)",
+  "standards_framework": "None stated",
+  "duration": {"months": 2, "weeks": 6},
+  "hours": {"total": 17, "theory": 5, "practical": 12},
+  "delivery_mode": "Teacher-led classroom and supervised, play-based activity stations",
+  "tooling": {
+    "primary_stack": "Paper maps, picture cards, blocks, crayons, reusable craft materials, and educator-controlled display/printed media",
+    "lab_format": "written-practical",
+    "auto_testable": false
+  },
+  "marker_ratio": "1:8",
+  "learner_profile": {
+    "description": "Five-year-old preschool learners; activities are oral, visual, movement-based, and supported by an educator or caregiver.",
+    "age_band": "5 years",
+    "prior_knowledge": ["Can listen to a short read-aloud", "Emerging oral-language and turn-taking skills", "Can notice and compare simple shapes, pictures, and quantities"],
+    "reading_level": "Preschool read-aloud; adult scribing and picture cues required"
+  },
+  "locale": {
+    "country": "Singapore",
+    "example_contexts": ["Singapore on a map", "ships and the port", "Gardens by the Bay Supertrees", "the Merlion", "Chinese New Year, Hari Raya, Deepavali, and Christmas", "Jewel Changi Airport's indoor waterfall"],
+    "data_protection_law": "Singapore Personal Data Protection Act (PDPA)"
+  },
+  "competencies": [
+    {
+      "id": "C1", "title": "Find Singapore and discover its port", "theory_hrs": 1, "practical_hrs": 2,
+      "scope": ["Singapore as a small island city-state", "Singapore's location on regional sea routes", "A port as a place where ships load, unload, and transfer goods"],
+      "performance_criteria": [
+        {"id": "C1.PC1", "text": "Point to Singapore on a simple picture map with educator support.", "derived": true},
+        {"id": "C1.PC2", "text": "Use a toy ship or picture to show that ships travel between places by sea.", "derived": true},
+        {"id": "C1.PC3", "text": "Describe a port as a place where people move goods on or off ships, using a simple example.", "derived": true}
+      ], "ai_native": false
+    },
+    {
+      "id": "C2", "title": "Notice Singapore's gardens and green spaces", "theory_hrs": 1, "practical_hrs": 2,
+      "scope": ["A city can include plants and green spaces", "Gardens by the Bay Supertrees are human-made structures with plants", "Ways people can care for plants and shared green spaces"],
+      "performance_criteria": [
+        {"id": "C2.PC1", "text": "Identify a plant or green space in a photograph or model.", "derived": true},
+        {"id": "C2.PC2", "text": "Explain that a Supertree is a human-made structure with plants, not a living tree.", "derived": true},
+        {"id": "C2.PC3", "text": "Choose and demonstrate one age-appropriate way to care for a shared green space.", "derived": true}
+      ], "ai_native": false
+    },
+    {
+      "id": "C3", "title": "Meet the Merlion and its story", "theory_hrs": 1, "practical_hrs": 2,
+      "scope": ["The Merlion's lion head and fish body", "The Merlion as a Singapore symbol and statue", "The story linking the fish to Singapore's early fishing settlement and the lion to its name and legend"],
+      "performance_criteria": [
+        {"id": "C3.PC1", "text": "Describe or assemble the Merlion's lion head and fish body.", "derived": true},
+        {"id": "C3.PC2", "text": "Recognise the Merlion as a symbol represented by a statue, not a real animal.", "derived": true},
+        {"id": "C3.PC3", "text": "Retell one part of the Merlion story and identify it as a story about Singapore's past.", "derived": true}
+      ], "ai_native": false
+    },
+    {
+      "id": "C4", "title": "Celebrate Singapore's many communities", "theory_hrs": 1, "practical_hrs": 2,
+      "scope": ["People in Singapore have varied cultures, languages, and family traditions", "Chinese New Year, Hari Raya, Deepavali, and Christmas as examples of celebrations observed by some communities", "Sharing food and treating different traditions respectfully"],
+      "performance_criteria": [
+        {"id": "C4.PC1", "text": "Name or match at least two celebrations to picture cues without claiming everyone celebrates them.", "derived": true},
+        {"id": "C4.PC2", "text": "Share one respectful question or observation about a tradition, language, or food.", "derived": true},
+        {"id": "C4.PC3", "text": "Take turns in a shared food or celebration sorting activity.", "derived": true}
+      ], "ai_native": false
+    },
+    {
+      "id": "C5", "title": "Explore Singapore's airport and inventions", "theory_hrs": 1, "practical_hrs": 2,
+      "scope": ["Jewel Changi Airport's Rain Vortex as an indoor waterfall", "How people use design and technology to make places useful and interesting", "Shared responsibility for caring for clean public places"],
+      "performance_criteria": [
+        {"id": "C5.PC1", "text": "Identify the Rain Vortex as an indoor waterfall at Jewel Changi Airport.", "derived": true},
+        {"id": "C5.PC2", "text": "Use blocks or a drawing to show one way people design a useful public place.", "derived": true},
+        {"id": "C5.PC3", "text": "Choose one action that helps keep a shared public place clean and explain why it helps.", "derived": true}
+      ], "ai_native": false
+    }
+  ],
+  "revision_assessment": {"theory_hrs": 0, "practical_hrs": 2},
+  "assessments": [
+    {
+      "id": "A1", "name": "Singapore Explorer Show-and-Tell", "type": "project", "duration_hrs": 2, "weight_pct": 100,
+      "covers": ["C1", "C2", "C3", "C4", "C5"], "mode": "group",
+      "deliverable": "A group-made Singapore explorer board or model, plus an individual short oral or picture-supported reflection",
+      "ai_policy": "allowed-with-citation",
+      "notes": "Educator-mediated AI only; children contribute predictions and critique printed, age-appropriate outputs. Do not expose children to public chat interfaces or enter personal data."
+    }
+  ],
+  "ai_assist": {"target_pct": 40, "target_hrs": 7, "source": "default"},
+  "lab_block_hrs": 2,
+  "assumptions": [
+    "The source is an informal child-facing explainer, not a formal module specification; a six-week, 17-contact-hour preschool module is assumed to make it teachable.",
+    "The five competencies are derived from the explainer's five teachable themes: port/location, green spaces, Merlion, cultural communities, and airport/design.",
+    "Each competency is allocated 1 theory hour and 2 practical hours; 2 practical hours are reserved for the final project assessment. No separate revision block is added.",
+    "Institution, module code, framework, duration, workload, delivery mode, marker ratio, and learner prerequisites were not stated; values in this brief are planning defaults, not source facts.",
+    "The six-week duration is rounded to two calendar months for the schema.",
+    "The 40% AI-assist target and 2-hour lab block follow the orchestrator defaults; 7 hours is ceil(17 × 40%).",
+    "The AI target is unusually high for five-year-olds. All AI use is educator-mediated, off-screen where feasible, and limited to vetted, printed outputs; children do not use public AI chat tools directly. Provider safeguarding approval is required before delivery.",
+    "Performance criteria are derived from the source themes and marked derived; no standards framework or supplied criteria were provided.",
+    "A single 2-hour group project assessment carries 100% because no assessment scheme was supplied; individual evidence is collected through each child's contribution and reflection.",
+    "Project AI policy defaults to allowed-with-citation, adapted with educator mediation for the age group.",
+    "The source's descriptions are simplified. Teaching materials should distinguish Singapore as an island city-state, describe the Supertrees as structures rather than trees, avoid claims that everyone celebrates or speaks the same way, and identify the Merlion as a symbol/statue rather than a magical creature.",
+    "No named school, class size, accessibility needs, approved AI platform, or media permissions were supplied; the educator must check these before delivery."
+  ]
+}
